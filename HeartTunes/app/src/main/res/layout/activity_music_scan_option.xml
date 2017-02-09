@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:baselineAligned="false"
+android:orientation="vertical"
+tools:context="com.vineet.emotionmusicplayer.MusicScanOption"
+android:background="@drawable/backimage">
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2">
+    <Button
+        android:id="@+id/button_gotoMusicTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan Playlists"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="gotoMusicTag"
+        style="@style/ButtonStyle" />
+</RelativeLayout>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/button_gotoSelectMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="gotoSelectMode"
+        style="@style/ButtonStyle" />
+</RelativeLayout>
+
+</LinearLayout>

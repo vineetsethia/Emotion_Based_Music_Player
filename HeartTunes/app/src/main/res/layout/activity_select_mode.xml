@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vineet.emotionmusicplayer.SelectMode"
+    android:background="@drawable/backimage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What You Feel Like..."
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:paddingBottom="50px"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="165px"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/happy"
+                        android:layout_weight="1"
+                        android:paddingBottom="5px"
+                        android:paddingRight="2px"
+                        android:paddingLeft="2px"
+                        android:onClick="activityRecognizeHappiness"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/sad"
+                        android:layout_weight="1"
+                        android:paddingBottom="5px"
+                        android:paddingRight="2px"
+                        android:paddingLeft="2px"
+                        android:onClick="activityRecognizeSadness"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fear"
+                        android:layout_weight="1"
+                        android:paddingBottom="5px"
+                        android:paddingRight="2px"
+                        android:paddingLeft="2px"
+                        android:onClick="activityRecognizeFear"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/disgust"
+                        android:layout_weight="1"
+                        android:paddingBottom="5px"
+                        android:paddingRight="2px"
+                        android:paddingLeft="2px"
+                        android:onClick="activityRecognizeDisgust"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="40px"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Happy"
+                        android:paddingBottom="10px"
+                        android:textSize="20dp"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sad"
+                        android:textSize="20dp"
+                        android:paddingBottom="10px"
+                        android:paddingRight="20px"
+                        android:paddingLeft="10px"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fear"
+                        android:textSize="20dp"
+                        android:gravity="right"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Disgust"
+                        android:textSize="20dp"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="1px"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="165px"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/contempt"
+                        android:layout_weight="1"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:onClick="activityRecognizeContempt"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/anger"
+                        android:layout_weight="1"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:onClick="activityRecognizeAnger"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/surprise"
+                        android:layout_weight="1"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:onClick="activityRecognizeSurprise"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/neutral"
+                        android:layout_weight="1"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:onClick="activityRecognizeNeutral"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contempt"
+                        android:paddingBottom="10px"
+                        android:layout_weight="1"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anger"
+                        android:textSize="20dp"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Surprise"
+                        android:textSize="20dp"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Neutral"
+                        android:paddingBottom="10px"
+                        android:paddingRight="10px"
+                        android:paddingLeft="10px"
+                        android:textSize="20dp"
+                        android:layout_weight="10"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If You are not sure, click here to recognize your emotion!"
+                android:textStyle="bold"
+                android:paddingTop="90px"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="I am not sure"
+                android:id="@+id/button_image_recognition"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:onClick="activityRecognize"
+                style="@style/ButtonStyle"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

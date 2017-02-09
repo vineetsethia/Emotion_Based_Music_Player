@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TarsosDSP-Android-latest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/TarsosDSP-Android-latest.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

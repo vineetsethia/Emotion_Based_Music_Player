@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Student\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.5\686c608d1805b6d4d425ec4459e88164ffc85870\gson-2.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\gson-2.5_484490a68ae7d8aa1d1a9ace4431cab3a8a32a16.jar" />
+    </item>
+    <item
+        jar="C:\Users\Student\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_0358d5c55f2b0ff912288cf7bb690ee5dec7a5df.jar" />
+    </item>
+    <item
+        jar="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\emotion\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85580f7e643f4e319878f282874afccc3b1b95ed">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\com.microsoft.projectoxford-emotion-1.0.0_94618937679f33f7c796ef75a1685163e07bbb81.jar" />
+    </item>
+    <item
+        jar="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_12d354fe98e32d821528762f485b69e5a2565164.jar" />
+    </item>
+    <item
+        jar="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\face\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b9885b9cbfc39129a13674d39d0cae321fc0dc97">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\com.microsoft.projectoxford-face-1.0.0_e81883f9292f3d6f788e501b4e50e9950cb88ea2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_ca5d9df8fb3c36e79efef3298a90626d89642a9f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_1f31570a773ceafc0d377ac337819b37c621248f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\emotion\1.0.0\jars\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\commons-io-2.4_ba5424751479a2699e088e496e015908be84a8c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Student\New folder (2)\HeartTunes\app\libs\TarsosDSP-Android-latest.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="82afc90486cffd3cf6ce82e1680567d8c5f3b268">
+        <dex dex="C:\Users\Student\New folder (2)\HeartTunes\app\build\intermediates\pre-dexed\debug\TarsosDSP-Android-latest_dfadb3726d79bad664c8b0460a9fe9345371e826.jar" />
+    </item>
+
+</items>
